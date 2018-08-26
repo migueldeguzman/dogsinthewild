@@ -1,0 +1,37 @@
+
+h1 {
+	font-family: fantasy;
+	font size: 3em;
+	border-bottom: 2px solid pink;
+	width: 400px;
+	border-right: 2px solid pink;
+	text-align: center;	
+	box-shadow: 4px 4px 5px #888888;
+	text-shadow: 4px 4px 5px #888888;
+	margin: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*checkout flexboxfroggy.com*/
+
+img	{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all; 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
+
+/*note: check support on transition of all browser
+like: caniuse.com*/
